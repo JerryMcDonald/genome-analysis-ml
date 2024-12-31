@@ -16,6 +16,20 @@ This project implements a multi-stage pipeline for processing and analyzing gene
 
 5. **Evaluation**: Implementing various metrics and visualizations to assess model performance
 
+## Repository Structure
+
+```
+genome-analysis-ml/
+├── docs/           # Documentation files
+│   └── SETUP.md    # Detailed setup instructions
+├── notebooks/      # Jupyter notebooks for analysis
+├── src/           # Source code (coming soon)
+│   ├── preprocessing/    # VCF processing scripts
+│   ├── autoencoder/     # Autoencoder implementation
+│   └── analysis/        # Neural network analysis
+└── requirements.txt    # Project dependencies
+```
+
 ## Project Status
 
 🚧 Currently in early development phase:
@@ -25,10 +39,22 @@ This project implements a multi-stage pipeline for processing and analyzing gene
 
 ## Technologies
 
-- TensorFlow/Keras
-- Python
-- Genomic data processing libraries (planned)
+- TensorFlow/Keras for deep learning implementations
+- Python 3.9+ as the primary programming language
+- Hail for genomic data processing
+- Jupyter notebooks for analysis and visualization
 
-## Repository Structure
+## Getting Started
 
-Details about the repository organization and setup instructions will be added as the project develops.
+For detailed setup instructions, please see [SETUP.md](docs/SETUP.md).
+
+## Project Management
+
+This project uses:
+- Trello for task management and progress tracking
+- GitHub for version control and code collaboration
+- Google Spaces for team communication
+
+## Contributing
+
+More information about contributing will be added as the project develops.
