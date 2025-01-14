@@ -75,6 +75,8 @@ pip install -r requirements.txt
 
 ## Troubleshooting
 
+source activate base
+conda activate genome-env
 ### Common Issues
 
 1. **Python not found in PATH**
