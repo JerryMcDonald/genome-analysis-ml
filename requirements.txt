@@ -1,0 +1,25 @@
+# Core requirements
+hail==0.2.133
+pandas==2.2.3
+numpy==1.26.4
+tensorflow==2.10.0
+scipy==1.11.4
+
+# Visualization
+bokeh==3.3.4
+plotly==5.24.1
+
+# Cloud Storage
+azure-storage-blob==12.24.0
+boto3==1.35.96
+
+# Development tools
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Other dependencies
+requests==2.32.3
+pyspark==3.5.4
+
+-e .  # Install your package in editable mode
