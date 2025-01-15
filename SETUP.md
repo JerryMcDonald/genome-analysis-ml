@@ -77,6 +77,13 @@ pip install -r requirements.txt
 
 source activate base
 conda activate genome-env
+
+## Going forward, when you need to add new packages:
+
+Add them to environment.yml
+Run conda env update -f environment.yml
+
+
 ### Common Issues
 
 1. **Python not found in PATH**
